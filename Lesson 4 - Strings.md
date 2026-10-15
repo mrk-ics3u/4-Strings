@@ -128,7 +128,7 @@ for letter in name:
   `\n` is a new line and `\t` is a tab.
 
 ```python
-# what does < mean with strings? (alphabetical order, with a catch)
+# what does < mean with strings? 
 my_string = "apple"
 if my_string < "Hello there":
     print("This string is less than 'Hello there'")
