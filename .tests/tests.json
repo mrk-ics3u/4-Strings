@@ -1,0 +1,39 @@
+{
+  "title": "Lab 4 - Password Checker",
+  "cases": [
+    {
+      "type": "header",
+      "name": "Header is filled in"
+    },
+    {
+      "type": "output",
+      "name": "Valid password",
+      "stdin": "Maple7tree",
+      "expect": "Enter password: Password is valid."
+    },
+    {
+      "type": "output",
+      "name": "Short, lowercase only, no digit",
+      "stdin": "abc",
+      "expect": [
+        "Enter password: Error: Password must be at least 8 characters long.",
+        "Error: Password must contain at least one uppercase letter.",
+        "Error: Password must contain exactly one digit."
+      ]
+    },
+    {
+      "type": "output",
+      "name": "No lowercase, three digits",
+      "stdin": "ALLCAPS123XY",
+      "expect": [
+        "Enter password: Error: Password must contain at least one lowercase letter.",
+        "Error: Password must contain exactly one digit."
+      ]
+    },
+    {
+      "type": "comments",
+      "name": "Code is commented",
+      "min": 2
+    }
+  ]
+}

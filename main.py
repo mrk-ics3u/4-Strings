@@ -1,0 +1,10 @@
+#-----------------------------------------------------------------------------
+# Name:        Introduction (main.py)
+# Purpose:     
+#
+# Author:      Mr. Kowalczewski
+# Created:     14-Aug-2018
+# Updated:     14-Aug-2018
+#-----------------------------------------------------------------------------
+
+password = input("Enter password: ")
